@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <launch>
-  
+
+<!-- Send urdf to param server,launch joint_state_publisher and robot_state_publisher -->
 <include file="$(find dumpster)/launch/robot_description.launch"/>
 
-  <arg name="world" default="empty"/> 
+  <!-- Change to value to select a different gazebo world -->
+  <arg name="world" default="wohnung.world" />
+
   <arg name="paused" default="false"/>
   <arg name="use_sim_time" default="true"/>
   <arg name="gui" default="true"/>
   <arg name="headless" default="false"/>
   <arg name="debug" default="false"/>
 
+
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find service_bot)/worlds/wohnung.world"/>
+    <arg name="world_name" value="$(find service_bot)/worlds/$(arg world)"/>
+
     <arg name="paused" value="$(arg paused)"/>
     <arg name="use_sim_time" value="$(arg use_sim_time)"/>
     <arg name="gui" value="$(arg gui)"/>
     <arg name="headless" value="$(arg headless)"/>
     <arg name="debug" value="$(arg debug)"/>
+    <!--
+    <env name="GAZEBO_MODEL_PATH" value="$(find simulation_gazebo)/models:$(optenv GAZEBO_MODEL_PATH)"/>
+    -->
 </include>
   
 <!--spawn a robot in gazebo world-->
