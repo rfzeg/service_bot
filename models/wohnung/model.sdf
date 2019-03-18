@@ -1,0 +1,1804 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='wohnung'>
+    <pose frame=''>-0.0465 -0.031546 0 0 -0 0</pose>
+    <link name='Wall_101'>
+      <pose frame=''>1.5775 -4.43695 0 0 0 -0.000741</pose>
+      <visual name='Wall_101_Visual_0'>
+        <pose frame=''>-0.632619 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.334763 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_101_Collision_0'>
+        <geometry>
+          <box>
+            <size>0.334763 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.632619 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_101_Visual_1'>
+        <pose frame=''>0.617381 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.365237 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_101_Collision_1'>
+        <geometry>
+          <box>
+            <size>0.365237 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.617381 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_101_Visual_2'>
+        <pose frame=''>-0.015237 0 2.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.25 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_101_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.9 0.25 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.015237 0 2.25 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_103'>
+      <collision name='Wall_103_Collision'>
+        <geometry>
+          <box>
+            <size>0.855682 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_103_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.855682 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose frame=''>0.55 -2.33845 0 0 -0 0.006611</pose>
+    </link>
+    <link name='Wall_105'>
+      <collision name='Wall_105_Collision'>
+        <geometry>
+          <box>
+            <size>4.1 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_105_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4.1 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose frame=''>4.1775 -4.43745 0 0 -0 0</pose>
+    </link>
+    <link name='Wall_107'>
+      <pose frame=''>6.1025 -2.01245 0 0 -0 1.5708</pose>
+      <visual name='Wall_107_Visual_0'>
+        <pose frame=''>-1.79598 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.50803 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_107_Collision_0'>
+        <geometry>
+          <box>
+            <size>1.50803 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-1.79598 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_107_Visual_1'>
+        <pose frame=''>0.754015 0 0.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3.59197 0.25 1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_107_Collision_1'>
+        <geometry>
+          <box>
+            <size>3.59197 0.25 1</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.754015 0 0.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_107_Visual_2'>
+        <pose frame=''>0.349304 0 1.75 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.182548 0.25 1.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_107_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.182548 0.25 1.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.349304 0 1.75 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_107_Visual_3'>
+        <pose frame=''>2.14529 0 1.75 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.809422 0.25 1.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_107_Collision_3'>
+        <geometry>
+          <box>
+            <size>0.809422 0.25 1.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>2.14529 0 1.75 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_107_Visual_4'>
+        <pose frame=''>-0.39197 0 2.35 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.3 0.25 0.3</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_107_Collision_4'>
+        <geometry>
+          <box>
+            <size>1.3 0.25 0.3</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.39197 0 2.35 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_107_Visual_5'>
+        <pose frame=''>1.09058 0 2.35 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.3 0.25 0.3</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_107_Collision_5'>
+        <geometry>
+          <box>
+            <size>1.3 0.25 0.3</size>
+          </box>
+        </geometry>
+        <pose frame=''>1.09058 0 2.35 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_109'>
+      <pose frame=''>6.1025 2.56255 0 0 0 -1.5708</pose>
+      <visual name='Wall_109_Visual_0'>
+        <pose frame=''>-1.5565 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.887 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_109_Collision_0'>
+        <geometry>
+          <box>
+            <size>0.887 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-1.5565 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_109_Visual_1'>
+        <pose frame=''>0.4435 0 0.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3.113 0.25 1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_109_Collision_1'>
+        <geometry>
+          <box>
+            <size>3.113 0.25 1</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.4435 0 0.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_109_Visual_2'>
+        <pose frame=''>1.5435 0 1.75 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.913 0.25 1.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_109_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.913 0.25 1.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>1.5435 0 1.75 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_109_Visual_3'>
+        <pose frame=''>-0.013 0 2.35 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.2 0.25 0.3</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_109_Collision_3'>
+        <geometry>
+          <box>
+            <size>2.2 0.25 0.3</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.013 0 2.35 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_112'>
+      <pose frame=''>0.2275 2.44355 0 0 -0 3.14159</pose>
+      <visual name='Wall_112_Visual_0'>
+        <pose frame=''>-0.997639 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.154723 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_112_Collision_0'>
+        <geometry>
+          <box>
+            <size>0.154723 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.997639 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_112_Visual_1'>
+        <pose frame=''>0.452361 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.24528 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_112_Collision_1'>
+        <geometry>
+          <box>
+            <size>1.24528 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.452361 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_112_Visual_2'>
+        <pose frame=''>-0.545277 0 2.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.75 0.15 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_112_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.75 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.545277 0 2.25 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_114'>
+      <pose frame=''>1.7525 2.44355 0 0 -0 0</pose>
+      <visual name='Wall_114_Visual_0'>
+        <pose frame=''>-0.509708 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.180584 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_114_Collision_0'>
+        <geometry>
+          <box>
+            <size>0.180584 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.509708 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_114_Visual_1'>
+        <pose frame=''>0.465292 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.269416 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_114_Collision_1'>
+        <geometry>
+          <box>
+            <size>0.269416 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.465292 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_114_Visual_2'>
+        <pose frame=''>-0.044416 0 2.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.75 0.15 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_114_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.75 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.044416 0 2.25 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_117'>
+      <collision name='Wall_117_Collision'>
+        <geometry>
+          <box>
+            <size>2.45 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_117_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.45 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose frame=''>0.2885 -1.13645 0 0 0 -1.5708</pose>
+    </link>
+    <link name='Wall_119'>
+      <pose frame=''>0.2885 1.18855 0 0 -0 1.5708</pose>
+      <visual name='Wall_119_Visual_0'>
+        <pose frame=''>-1.11461 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.270787 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_119_Collision_0'>
+        <geometry>
+          <box>
+            <size>0.270787 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-1.11461 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_119_Visual_1'>
+        <pose frame=''>0.585394 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.32921 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_119_Collision_1'>
+        <geometry>
+          <box>
+            <size>1.32921 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.585394 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_119_Visual_2'>
+        <pose frame=''>-0.529213 0 2.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_119_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.529213 0 2.25 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_14'>
+      <collision name='Wall_14_Collision'>
+        <geometry>
+          <box>
+            <size>4.1 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_14_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4.1 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose frame=''>-2.7225 4.43755 0 0 -0 0</pose>
+    </link>
+    <link name='Wall_26'>
+      <pose frame=''>0.215 4.43755 0 0 -0 0</pose>
+      <visual name='Wall_26_Visual_0'>
+        <pose frame=''>-0.53942 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.19616 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_26_Collision_0'>
+        <geometry>
+          <box>
+            <size>1.19616 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.53942 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_26_Visual_1'>
+        <pose frame=''>0.59808 0 0.75 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.07884 0.25 1.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_26_Collision_1'>
+        <geometry>
+          <box>
+            <size>1.07884 0.25 1.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.59808 0 0.75 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_26_Visual_2'>
+        <pose frame=''>0.89808 0 2 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.47884 0.25 1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_26_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.47884 0.25 1</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.89808 0 2 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_26_Visual_3'>
+        <pose frame=''>0.35866 0 2.4 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.6 0.25 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_26_Collision_3'>
+        <geometry>
+          <box>
+            <size>0.6 0.25 0.2</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.35866 0 2.4 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_32'>
+      <pose frame=''>1.74 4.43755 0 0 -0 0</pose>
+      <visual name='Wall_32_Visual_0'>
+        <pose frame=''>-0.478494 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.318012 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_32_Collision_0'>
+        <geometry>
+          <box>
+            <size>0.318012 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.478494 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_32_Visual_1'>
+        <pose frame=''>0.159006 0 0.75 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.956988 0.25 1.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_32_Collision_1'>
+        <geometry>
+          <box>
+            <size>0.956988 0.25 1.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.159006 0 0.75 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_32_Visual_2'>
+        <pose frame=''>0.459006 0 2 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.356988 0.25 1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_32_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.356988 0.25 1</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.459006 0 2 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_32_Visual_3'>
+        <pose frame=''>-0.019488 0 2.4 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.6 0.25 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_32_Collision_3'>
+        <geometry>
+          <box>
+            <size>0.6 0.25 0.2</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.019488 0 2.4 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_36'>
+      <collision name='Wall_36_Collision'>
+        <geometry>
+          <box>
+            <size>2.25 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_36_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.25 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose frame=''>2.2525 3.43755 0 0 0 -1.5708</pose>
+    </link>
+    <link name='Wall_39'>
+      <collision name='Wall_39_Collision'>
+        <geometry>
+          <box>
+            <size>4.05 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_39_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4.05 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose frame=''>4.2025 0.612546 0 0 -0 0</pose>
+    </link>
+    <link name='Wall_43'>
+      <collision name='Wall_43_Collision'>
+        <geometry>
+          <box>
+            <size>4.1 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_43_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4.1 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose frame=''>4.1775 4.43755 0 0 -0 0</pose>
+    </link>
+    <link name='Wall_49'>
+      <pose frame=''>0.9025 -2.21145 0 0 -0 1.5708</pose>
+      <visual name='Wall_49_Visual_0'>
+        <pose frame=''>-0.827038 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.94592 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_49_Collision_0'>
+        <geometry>
+          <box>
+            <size>2.94592 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.827038 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_49_Visual_1'>
+        <pose frame=''>1.92296 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.754076 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_49_Collision_1'>
+        <geometry>
+          <box>
+            <size>0.754076 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>1.92296 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_49_Visual_2'>
+        <pose frame=''>1.09592 0 2.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_49_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.9 0.15 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>1.09592 0 2.25 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_51'>
+      <collision name='Wall_51_Collision'>
+        <geometry>
+          <box>
+            <size>0.764099 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_51_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.764099 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose frame=''>0.5955 0.013546 0 0 -0 3.14159</pose>
+    </link>
+    <link name='Wall_57'>
+      <collision name='Wall_57_Collision'>
+        <geometry>
+          <box>
+            <size>6.6 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_57_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>6.6 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose frame=''>-2.9275 -2.34045 0 0 -0 3.14159</pose>
+    </link>
+    <link name='Wall_62'>
+      <pose frame=''>-2.7725 1.91255 0 0 -0 3.14159</pose>
+      <visual name='Wall_62_Visual_0'>
+        <pose frame=''>-0.842086 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.51583 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_62_Collision_0'>
+        <geometry>
+          <box>
+            <size>2.51583 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.842086 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_62_Visual_1'>
+        <pose frame=''>1.70791 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.784172 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_62_Collision_1'>
+        <geometry>
+          <box>
+            <size>0.784172 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>1.70791 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_62_Visual_2'>
+        <pose frame=''>0.865828 0 2.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.25 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_62_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.9 0.25 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.865828 0 2.25 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_64'>
+      <pose frame=''>-4.7475 3.17505 0 0 -0 1.5708</pose>
+      <visual name='Wall_64_Visual_0'>
+        <pose frame=''>-1.06075 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.653497 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_64_Collision_0'>
+        <geometry>
+          <box>
+            <size>0.653497 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-1.06075 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_64_Visual_1'>
+        <pose frame=''>0.326749 0 0.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.1215 0.25 1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_64_Collision_1'>
+        <geometry>
+          <box>
+            <size>2.1215 0.25 1</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.326749 0 0.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_64_Visual_2'>
+        <pose frame=''>0.926749 0 1.75 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.921503 0.25 1.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_64_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.921503 0.25 1.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.926749 0 1.75 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_64_Visual_3'>
+        <pose frame=''>-0.134003 0 2.35 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.2 0.25 0.3</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_64_Collision_3'>
+        <geometry>
+          <box>
+            <size>1.2 0.25 0.3</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.134003 0 2.35 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_67'>
+      <pose frame=''>-5.4225 1.91255 0 0 -0 3.14159</pose>
+      <visual name='Wall_67_Visual_0'>
+        <pose frame=''>-0.638656 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.322687 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_67_Collision_0'>
+        <geometry>
+          <box>
+            <size>0.322687 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.638656 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_67_Visual_1'>
+        <pose frame=''>0.611344 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.377313 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_67_Collision_1'>
+        <geometry>
+          <box>
+            <size>0.377313 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.611344 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_67_Visual_2'>
+        <pose frame=''>-0.027313 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.25 0</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_67_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.9 0.25 0</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.027313 0 0 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_67_Visual_3'>
+        <pose frame=''>-0.027313 0 2.35 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.25 0.3</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_67_Collision_3'>
+        <geometry>
+          <box>
+            <size>0.9 0.25 0.3</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.027313 0 2.35 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_68'>
+      <pose frame=''>-6.0975 -0.212454 0 0 0 -1.5708</pose>
+      <visual name='Wall_68_Visual_0'>
+        <pose frame=''>-1.72545 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.0491 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_68_Collision_0'>
+        <geometry>
+          <box>
+            <size>1.0491 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-1.72545 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_68_Visual_1'>
+        <pose frame=''>0.524548 0 0.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3.4509 0.25 1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_68_Collision_1'>
+        <geometry>
+          <box>
+            <size>3.4509 0.25 1</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.524548 0 0.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_68_Visual_2'>
+        <pose frame=''>1.72455 0 1.75 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.0509 0.25 1.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_68_Collision_2'>
+        <geometry>
+          <box>
+            <size>1.0509 0.25 1.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>1.72455 0 1.75 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_68_Visual_3'>
+        <pose frame=''>-0.000903 0 2.35 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.4 0.25 0.3</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_68_Collision_3'>
+        <geometry>
+          <box>
+            <size>2.4 0.25 0.3</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.000903 0 2.35 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_70'>
+      <collision name='Wall_70_Collision'>
+        <geometry>
+          <box>
+            <size>1.25 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_70_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.25 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose frame=''>-0.2975 1.91255 0 0 -0 0</pose>
+    </link>
+    <link name='Wall_76'>
+      <collision name='Wall_76_Collision'>
+        <geometry>
+          <box>
+            <size>2.14357 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_76_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.14357 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose frame=''>1.2275 3.44055 0 0 0 -1.5708</pose>
+    </link>
+    <link name='Wall_89'>
+      <pose frame=''>2.2525 1.52505 0 0 0 -1.5708</pose>
+      <visual name='Wall_89_Visual_0'>
+        <pose frame=''>-0.904292 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.266417 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_89_Collision_0'>
+        <geometry>
+          <box>
+            <size>0.266417 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.904292 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_89_Visual_1'>
+        <pose frame=''>0.583208 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.908583 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_89_Collision_1'>
+        <geometry>
+          <box>
+            <size>0.908583 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0.583208 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_89_Visual_2'>
+        <pose frame=''>-0.321083 0 2.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.25 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_89_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.9 0.25 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.321083 0 2.25 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Wall_9'>
+      <collision name='Wall_9_Collision'>
+        <geometry>
+          <box>
+            <size>2.675 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_9_Visual'>
+        <pose frame=''>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.675 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose frame=''>-0.7975 3.17505 0 0 0 -1.5708</pose>
+    </link>
+    <link name='Wall_97'>
+      <pose frame=''>2.2525 -1.91245 0 0 0 -1.5708</pose>
+      <visual name='Wall_97_Visual_0'>
+        <pose frame=''>-0.955407 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3.38919 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_97_Collision_0'>
+        <geometry>
+          <box>
+            <size>3.38919 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>-0.955407 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_97_Visual_1'>
+        <pose frame=''>2.14459 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.01081 0.25 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_97_Collision_1'>
+        <geometry>
+          <box>
+            <size>1.01081 0.25 2.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>2.14459 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_97_Visual_2'>
+        <pose frame=''>1.18919 0 2.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.25 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.921569 0.807843 0.615686 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_97_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.9 0.25 0.5</size>
+          </box>
+        </geometry>
+        <pose frame=''>1.18919 0 2.25 0 -0 0</pose>
+      </collision>
+    </link>
+    <static>1</static>
+  </model>
+</sdf>
