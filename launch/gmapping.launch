@@ -1,7 +1,7 @@
 <launch>
    
  <!-- change according to the topic and frame names in use -->
-  <arg name="scan_topic" default="dumpster/laser/scan"/>
+  <arg name="scan_topic" default="dumpster/laser/scan"/> <!--tell gmapping what the laser scan topic is -->
   <arg name="base_frame" default="robot_footprint"/>
   <arg name="odom_frame" default="odom"/>
 
@@ -45,5 +45,9 @@
     <param name="lasamplestep" value="0.005"/>
     <remap from="scan" to="$(arg scan_topic)"/>
   </node>
+
+    <!-- Use the rviz configuration file for mapping -->
+    <arg name="rvizconfig" default="$(find service_bot)/rviz/mapping.rviz" /> 
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)" required="true" />
 
 </launch>
