@@ -53,22 +53,32 @@
   <build_depend>move_base_msgs</build_depend>
   <build_depend>roscpp</build_depend>
   <build_depend>rospy</build_depend>
-  <build_depend>simple_navigation_goals</build_depend>
   <build_export_depend>actionlib</build_export_depend>
   <build_export_depend>move_base_msgs</build_export_depend>
   <build_export_depend>roscpp</build_export_depend>
   <build_export_depend>rospy</build_export_depend>
-  <build_export_depend>simple_navigation_goals</build_export_depend>
   <exec_depend>actionlib</exec_depend>
   <exec_depend>move_base_msgs</exec_depend>
   <exec_depend>roscpp</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>>
   <exec_depend>rospy</exec_depend>
-  <exec_depend>simple_navigation_goals</exec_depend>
-
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
     <!-- Other tools can request additional information be placed here -->
+
+    <!-- gazebo_ros_paths_plugin automatically adds these to
+        GAZEBO_MODEL_PATH when you do this export inside
+        the package.xml file. -->
+        <!-- gazebo_media_path, gazebo_model_path, gazebo_plugin_path -->    
+        
+        <!-- The world file can use models like this: <uri>model://my_package/models/model_name</uri> for sdf models located inside the model directory -->
+        <!-- <gazebo_ros gazebo_model_path="${prefix}/.." /> -->
+       
+        <!-- The world file can use models like this: <uri>model://wohnung_no_color</uri> for sdf models located inside the model directory -->
+        <gazebo_ros gazebo_model_path="${prefix}/models"/>
+       
+        <!-- <gazebo_ros gazebo_model_path="${prefix}/worlds"/> -->
 
   </export>
 </package>
