@@ -21,7 +21,7 @@
 </include>
   
 <!--spawn a robot in gazebo world-->
-	<arg name= "pos_x" default = "0"/>
+	<arg name= "pos_x" default = "-1"/>
 	<arg name= "pos_y" default = "0"/>
 	<arg name= "pos_z" default = "0"/>
 	<arg name= "yaw" default = "0"/>
