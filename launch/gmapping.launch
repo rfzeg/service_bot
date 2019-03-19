@@ -46,8 +46,4 @@
     <remap from="scan" to="$(arg scan_topic)"/>
   </node>
 
-    <!-- Use the rviz configuration file for mapping -->
-    <arg name="rvizconfig" default="$(find service_bot)/rviz/mapping.rviz" /> 
-    <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)" required="true" />
-
 </launch>
