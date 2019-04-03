@@ -6,9 +6,8 @@
 <include file="$(find dumpster)/launch/robot_description.launch"/>
 
   <!-- Change to value to select a different gazebo world -->
-  <arg name="world" default="wohnung.world" />
-
-  <arg name="paused" default="false"/>
+  <arg name="world" default="maze_home.world" />
+  <arg name="paused" default="false"/> 
   <arg name="use_sim_time" default="true"/>
   <arg name="gui" default="true"/>
   <arg name="headless" default="false"/>
@@ -29,7 +28,7 @@
 </include>
   
 <!--spawn a robot in gazebo world-->
-	<arg name= "pos_x" default = "-1"/>
+	<arg name= "pos_x" default = "0"/>
 	<arg name= "pos_y" default = "0"/>
 	<arg name= "pos_z" default = "0"/>
 	<arg name= "yaw" default = "0"/>
