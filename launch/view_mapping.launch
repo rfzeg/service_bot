@@ -1,7 +1,7 @@
 <launch>
 
    <!-- Launch Rviz configured for mapping -->
-   <arg name="rvizconfig" default="$(find service_bot)/rviz/navigation.rviz" /> <!-- Select configuration file -->
+   <arg name="rvizconfig" default="$(find service_bot)/rviz/mapping.rviz" /> <!-- Select configuration file -->
    
    <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)" required="true" />
 
